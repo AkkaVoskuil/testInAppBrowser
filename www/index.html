@@ -22,7 +22,8 @@
     <script src="js/app.js"></script>
     <script>
     function addData(data){
-      alert(data);
+      data = JSON.parse(data);
+      alert(data.semilla);
     }
     </script>
   </head>
